@@ -2,8 +2,44 @@
 /* Media Query for Tablet - 768 px */
 
 @media screen and (max-width: 768px){
-    .container{ width: 768px;
+    .container{ 
+        max-width: 767px;
+    }
+
+    .stepstext-center{
+        background-color: #eebbc3;
     }
 }
 
 /* Media Query for Mobile 480 px  */
+
+@media screen and (max-width: 479px){
+    .container{
+        width: auto;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .h1 .h2{
+        font-size: 1.25rem;
+    }
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    .steps .col{
+        width: 100%;
+    }
+
+    .why-us .col-left{
+        width: 100%;
+    }
+
+    .why-us .col-right{
+        width: 100%;
+    }
+
+}
