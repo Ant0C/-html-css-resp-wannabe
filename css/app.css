@@ -1,3 +1,11 @@
+/* Media Query up 1160 px */
+
+@media screen and (max-width: 1159px){
+    .container{
+        width: auto;
+    }
+
+}
 
 /* Media Query for Tablet - 768 px */
 
