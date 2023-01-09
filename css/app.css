@@ -22,8 +22,8 @@
         flex-direction: column;
     }
 
-    .h1 .h2{
-        font-size: 1.25rem;
+    .col-left{
+        margin-bottom: 4rem;
     }
 
     .lessons .col{
